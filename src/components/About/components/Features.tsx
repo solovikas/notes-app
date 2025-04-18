@@ -1,9 +1,13 @@
+import icon001 from "../../../../assets/Icon 001.png"
+import icon002 from "../../../../assets/Icon 002.png"
+import icon003 from "../../../../assets/Icon 003.png"
+
 const Features: React.FC = () => {
   return (
     <section className=" w-full h-fit flex flex-row justify-between items-start gap-[3vw] max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-[10vh] mb-[14vh] max-sm:mb-[10vh]">
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="/notes-app/assets/icon%20001.png"
+          src={icon001}
           alt="icon 1"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />
@@ -17,7 +21,7 @@ const Features: React.FC = () => {
       </div>
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="/notes-app/assets/icon%20002.png"
+          src={icon002}
           alt="icon 2"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />
@@ -31,7 +35,7 @@ const Features: React.FC = () => {
       </div>
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="/notes-app/assets/icon%20003.png"
+          src={icon003}
           alt="icon 3"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />

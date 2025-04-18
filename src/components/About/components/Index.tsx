@@ -1,7 +1,8 @@
+import about1 from "../../../../assets/about1.png"
 const Index: React.FC = () => {
   return (
     <section className="w-full h-fit bg-[var(--primary-color)] flex flex-row justify-between items-center gap-[2vw] pr-[4vw] max-sm:gap-[0] max-sm:pr-[0] mb-[14vh] max-sm:mb-[5vh]">
-      <img src="/notes-app/assets/about1.png" alt="about" className="w-[30%]" />
+      <img src={about1} alt="about" className="w-[30%]" />
       <article className="w-[54%] flex flex-col justify-center items-start gap-[2vw]">
         <h2 className="w-full h-auto font-bold text-[var(--black)] text-[4vw] font-montserrat">
           Индекс заметок

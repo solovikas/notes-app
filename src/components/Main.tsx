@@ -1,7 +1,8 @@
 import Button from "./components/Button"
 import "../App.css"
 import Logos from "./Logos"
-import { useContext } from "react"
+import arrowDown from "../../assets/arrow down.svg"
+import hero3D from "../../assets/hero 3D.png"
 
 const Main: React.FC = () => {
   return (
@@ -34,7 +35,7 @@ const Main: React.FC = () => {
             id="startButton"
           />
           <img
-            src="/notes-app/assets/arrow%20down.svg"
+            src={arrowDown}
             alt="arrow down"
             className="h-[5vw] max-lg:h-[6vw] max-sm:h-[12vw]"
           />
@@ -42,7 +43,7 @@ const Main: React.FC = () => {
         <Logos />
       </section>
       <img
-        src="/notes-app/assets/hero%203D.png"
+        src={hero3D}
         alt="main"
         className="w-[66vh] h-auto max-sm:w-auto max-sm:h-[34vh]"
       />
