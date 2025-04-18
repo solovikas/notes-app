@@ -3,7 +3,7 @@ const Features: React.FC = () => {
     <section className=" w-full h-fit flex flex-row justify-between items-start gap-[3vw] max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-[10vh] mb-[14vh] max-sm:mb-[10vh]">
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="./assets/icon 001.png"
+          src="/notes-app/assets/icon%20001.png"
           alt="icon 1"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />
@@ -17,7 +17,7 @@ const Features: React.FC = () => {
       </div>
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="/notes-app/assets/icon 002.png"
+          src="/notes-app/assets/icon%20002.png"
           alt="icon 2"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />
@@ -31,7 +31,7 @@ const Features: React.FC = () => {
       </div>
       <div className="w-fit h-fit flex flex-col justify-center items-center text-center gap-[1vw]">
         <img
-          src="/notes-app/assets/icon 003.png"
+          src="/notes-app/assets/icon%20003.png"
           alt="icon 3"
           className="w-auto h-[40%] max-sm:w-[40%] transition-transform hover:translate-y-[-2%] ease-out duration-300"
         />

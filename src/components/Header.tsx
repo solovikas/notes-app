@@ -23,7 +23,7 @@ const Header: React.FC = () => {
   return (
     <header className="flex w-full h-[12vw] flex-row justify-between items-center bg-[var(--primary-color)] font-bold font-mulish max-sm:h-[16vw] mb-[14vh] max-sm:mb-[5vh] overflow-x-visible">
       <img
-        src="./assets/main-logoipsum.svg"
+        src="/notes-app/assets/main-logoipsum.svg"
         alt="logoipsum"
         className="h-[4vw] max-lg:h-[6vw]"
       />

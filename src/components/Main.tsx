@@ -34,7 +34,7 @@ const Main: React.FC = () => {
             id="startButton"
           />
           <img
-            src="./assets/arrow down.svg"
+            src="/notes-app/assets/arrow%20down.svg"
             alt="arrow down"
             className="h-[5vw] max-lg:h-[6vw] max-sm:h-[12vw]"
           />
@@ -42,7 +42,7 @@ const Main: React.FC = () => {
         <Logos />
       </section>
       <img
-        src="./assets/hero 3D.png"
+        src="/notes-app/assets/hero%203D.png"
         alt="main"
         className="w-[66vh] h-auto max-sm:w-auto max-sm:h-[34vh]"
       />
