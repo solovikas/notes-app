@@ -11,11 +11,11 @@ import "./App.css"
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/notes-app">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route  path="/" element={<Home />} />
         <Route path="/rates" element={<Rates />} />
-        <Route path="/notes" element={<Notes />} />
+        <Route  path="/notes" element={<Notes />} />
       </Routes>
     </Router>
   )

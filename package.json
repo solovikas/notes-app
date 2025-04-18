@@ -14,7 +14,9 @@
     "lint:fix": "eslint --fix .",
     "type-check": "tsc --noEmit",
     "prepare": "husky install",
-    "open": "concurrently \"node server.js\" \"vite\""
+    "open": "concurrently \"node server.js\" \"vite\"",
+    "gh-pages":"gh-pages -d dist",
+    "deploy":"npm run build && npm run gh-pages"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
@@ -44,6 +46,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.1.3",
+    "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "jsdom": "^23.2.0",
     "lint-staged": "^15.4.3",
