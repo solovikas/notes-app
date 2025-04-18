@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: white;
+  --orange: #ff7143;
+  --blue: #5454d4;
+  --black: #19191b;
+  --dark-grey: #696871;
+  --transparent-white: rgba(255, 255, 255, 0.505);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  overflow-x: hidden;
+  position: relative;
+}
